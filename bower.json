@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/agentreno/boilerplate",
+  "authors": [
+    "Karl <kturrell@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/vendor",
+    "test",
+    "tests"
+  ]
+}
