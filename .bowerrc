@@ -1,3 +1,6 @@
 {
-   "directory" : "js/vendor"
+   "directory" : "js/vendor",
+   "scripts" : {
+      "postinstall" : "wiredep -s index.html"
+   }
 }
