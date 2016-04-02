@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "d3book",
   "version": "0.0.0",
-  "homepage": "https://github.com/agentreno/boilerplate",
+  "homepage": "https://github.com/agentreno/d3book",
   "authors": [
     "Karl <kturrell@hotmail.com>"
   ],
@@ -17,5 +17,8 @@
     "js/vendor",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "d3": "3.5.5"
+  }
 }

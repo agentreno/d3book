@@ -1,0 +1,24 @@
+{
+  "name": "d3book",
+  "version": "0.0.0",
+  "description": "Data Visualization with D3 and AngularJS book workthrough",
+  "main": "js/app.js",
+  "dependencies": {
+    "wiredep": "~4.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentreno/d3book.git"
+  },
+  "author": "Karl Hopkinson-Turrell",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/agentreno/d3book/issues"
+  }
+}
