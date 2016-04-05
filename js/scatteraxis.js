@@ -28,8 +28,8 @@ var randPoint = function () {
 	return { x:new Date(rand_time), y: rand() * 5000, r: rand() * 10 };
 }
 
-// Generate 300 random elements
-var data = d3.range(300).map(randPoint);
+// Start with very few data points to illustrate axis changes by max value
+var data = d3.range(5).map(randPoint);
 
 function draw(){
 	var svg = d3.select('svg');
@@ -99,4 +99,4 @@ setInterval(function(){
 	data.shift();
 	data.push(randPoint());
 	draw();
-}, 50);
+}, 200);
